@@ -3,7 +3,7 @@ package com.example.hello1.database
 
  abstract class HelloDatabase: RoomDatabase(), version=1 {
     abstract fun courseDao():courseDao{
-        companion
+
 
     }
 }
